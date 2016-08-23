@@ -5,7 +5,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["camelmasa@gmail.com"]
   gem.description   = %q{OmniAuth strategy for SUZURI}
   gem.summary       = %q{OmniAuth strategy for SUZURI.}
-  gem.homepage      = "https://github.com/stockflow/omniauth-suzuri"
+  gem.homepage      = "https://github.com/zaikoflow/omniauth-suzuri"
   gem.license       = "MIT"
 
   gem.files         = `git ls-files`.split("\n")
