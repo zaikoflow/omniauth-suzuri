@@ -1,11 +1,8 @@
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
 
-require "codeclimate-test-reporter"
 require 'simplecov'
 
-SimpleCov.formatters = [
-  SimpleCov::Formatter::HTMLFormatter,
-  CodeClimate::TestReporter::Formatter
-]
+SimpleCov.formatter = SimpleCov::Formatter::HTMLFormatter
+SimpleCov.start
 
 require 'omniauth-suzuri'
